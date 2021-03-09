@@ -62,6 +62,7 @@ a {
 
 a:hover, a:focus, a:active {
     color: grey;
+    transition-duration:0.4s;
 }
 
 header a:hover:after, nav a:hover:after {
