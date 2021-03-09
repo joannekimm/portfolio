@@ -28,6 +28,15 @@ figure img {
 	margin-top:2em;
 }
 
+.container-1 p{
+	font-size: 0.9em;
+}
+
+.container-1 li{
+	font-size: 0.9em;
+}
+
+
 .box {
 	flex: 25%;
 	flex-direction:column;
