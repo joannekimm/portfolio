@@ -22,8 +22,21 @@ figure img {
 }
 
 .container-1 {
-	margin-top: -1em;
 	max-width: 850px;
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:2em;
+}
+
+.box {
+	flex: 25%;
+	flex-direction:column;
+	margin-right: 4em;
+}
+
+.box1 {
+	flex:40%;
+	flex-direction:column;
 }
 
 .container {
@@ -60,31 +73,8 @@ figure img {
 	color: grey;
 } 
 
-.box-1 {
-	display:flex;
-	flex-wrap: wrap;
-}
-.box-item-1 {
-	order: 1;
-	flex: 20%;
-	flex-direction: column;
-}
-
-.box-item-2 {
-	order: 2;
-	flex: 30%;
-	margin-left: 5em;
-	flex-direction: column;
-}
-
 .box-item-2 li{
 	margin-bottom: 0em;
-}
-
-.box {
-	display: flex;
-	max-width: 900px;
-	flex-wrap: wrap;
 }
 
 .buttonz {
@@ -93,9 +83,10 @@ figure img {
 
 li {
 	margin-bottom: 1.3em;
+	line-height: 1.3em;
 }
 
-.box-item-2 li {
+.box li {
 	line-height: 1.5em;
 	list-style-type: none;
 	margin-left: -2.3em;
@@ -128,7 +119,6 @@ h3 {
 
 h4 {
 	font-family: Poppins;
-	font-weight:normal;
 	font-size:1.1em;
 }
 
@@ -150,10 +140,6 @@ a{
 	color:black;
 }
 
-.box-item-2 li {
-	margin-bottom:0.5em;
-}
-
 .topb a {
 	color:black;
 	font-size: 1.3em;
@@ -171,16 +157,6 @@ a{
 	.main-item{
 	    padding: 1em;
 	    flex-basis: 100%;
-    }
-
-    .box-item-1 {
-    	flex-basis: 100%;
-    }
-
-    .box-item-2 {
-    	flex-basis: 100%;
-    	margin-left:0em;
-    	margin-top: -2em;
     }
 
     .banner-text {
@@ -219,14 +195,12 @@ a{
     	margin-top:-4em;
     }
 
-    .box-item-2 li {
-		line-height: 1.5em;
-		list-style-type: none;
+    .box li {
 		margin-left: -3em;
     }
 
     .JKim {
-    	margin-top: 1.7em;
+    	margin-top: 1em;
     	margin-bottom: 0em;
     }
 
@@ -237,6 +211,14 @@ a{
 
     .topb {
     	text-align:center;
+    }
+
+    .box1 {
+    	flex-basis:100%;
+    }
+
+    .container-1 {
+    	margin-top:0em;
     }
 
 }
