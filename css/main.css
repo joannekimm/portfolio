@@ -25,7 +25,7 @@
 }
 
 .active {
-	color: grey;
+	color:#6F809A;
 }
 
 img {
@@ -52,7 +52,7 @@ nav li{
 }
 
 a {
-	color: white;
+	color:black;
     text-decoration: none;
     display: inline-block;
 	padding: 15px 0px;
