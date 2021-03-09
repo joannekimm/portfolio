@@ -66,24 +66,26 @@ p {
 	font-weight:normal;
 }
 
+#projects p{
+	font-size: 0.9em;
+}
+
 body {
 	background-color:#FFFFFC;
+	font-family:Poppins;
 }
 
 h1{
-	font-family:Poppins;
 	font-weight:500;
 }
 
 h2{
 	margin-bottom: 2.5em;
-	font-family:Poppins;
 	color:#6F809A;
 }
 
 h3 {
 	font-size: 23px;
-	font-family:Poppins;
 	font-weight:600;
 }
 
