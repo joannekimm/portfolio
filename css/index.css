@@ -74,8 +74,11 @@
 
 .box-item-11 {
 	margin-bottom: 8em;
-	max-width: 27.5em;
 
+}
+
+.box-item-11 p{
+	width: 27em;
 }
 
 .box-item-1 {
