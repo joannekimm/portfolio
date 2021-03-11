@@ -62,6 +62,10 @@
     animation-iteration-count: 1;
 }
 
+.swing {
+	margin-top:-1.5em;
+}
+
 .banner-text img {
 	position: absolute;
 	margin-left: 11.5em;
@@ -107,6 +111,7 @@
 }
 
 .button {
+	margin-top:-2em;
 	color:#EA981D;
 	font-size: 1em;
     padding: 0;
