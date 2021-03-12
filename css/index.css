@@ -62,11 +62,24 @@
     animation-iteration-count: 1;
 }
 
-.swing {
-	margin-top:-1.5em;
+/* main-container/ main-item */
+
+.main-container{
+	display:flex;
+	justify-content:center;
+}
+
+.main-item{
+	padding: 4em;
 }
 
 /*nav bar*/
+
+.JKim{
+	margin-top: -2em;
+	margin-bottom: 5em;
+
+}
 
 .box-item-11 a{
 	font-weight: 600;
@@ -82,7 +95,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: grey;
+    color:#EA981D;
     transition-duration:0.4s;
 }
 
@@ -91,29 +104,10 @@ header a:hover:after, nav a:hover:after {
 	left: 0;
 }
 
-/*about page nav bar */
-
-nav ul {
-	margin:0;
-	padding: 0;
-	display: flex;
+.active {
+	color:#EA981D;
 }
 
-nav li{
-	list-style-type: none;
-	margin: 0 1.5vw;
-	font-size: 0.9rem;
-	font-weight: 600;
-}
-
-#desktop-nav a {
-	color:black;
-    text-decoration: none;
-    display: inline-block;
-	padding: 15px 0px;
-	margin: 0;
-	position: relative;
-}
 
 /*home page banner section */
 
@@ -182,7 +176,7 @@ nav li{
 /* buttons */
 
 .button {
-	margin-top:-2em;
+	margin-top:1em;
 	color:#EA981D;
 	font-size: 1em;
     padding: 0;
@@ -326,7 +320,7 @@ footer {
     }
 
     .JKim {
-    	margin-top: -3.3em;
+    	margin-top: 0em;
     	margin-left: 0em;
     	margin-bottom:0em;
     }
