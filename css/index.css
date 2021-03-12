@@ -138,9 +138,9 @@ nav li{
 }
 
 .banner{
+	margin-top:-1em;
 	display:flex;
 	justify-content:center;
-	margin-bottom:-2em;
 }
 
 /*home page project section */
