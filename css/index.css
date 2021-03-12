@@ -273,6 +273,10 @@ footer {
 		margin-bottom: 4em;
 	}
 
+	.box-item-11 p{
+		width:100%;
+}
+
 	.box-item-1 {
 		flex-basis: 100%;
 	}
