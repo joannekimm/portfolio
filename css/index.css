@@ -80,7 +80,7 @@
 .hand {
   margin-left:2em;
   animation-name: wave;
-  animation-duration: 0.8s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
@@ -88,7 +88,7 @@
 .hand2 {
   margin-left:2em;
   animation-name: wave;
-  animation-duration: 0.8s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 
@@ -96,7 +96,7 @@
 
 @keyframes wave {
   from {
-   transform: rotate(35deg);
+   transform: rotate(30deg);
   }
   
   to {
