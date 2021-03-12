@@ -34,41 +34,10 @@ img {
 	margin-right: 2em;
 }
 
-nav ul {
-	margin:0;
-	padding: 0;
-	display: flex;
-}
-
 p, li {
 	font-weight: lighter;
 }
 
-nav li{
-	list-style-type: none;
-	margin: 0 1.5vw;
-	font-size: 0.9rem;
-	font-weight: bolder;
-}
-
-a {
-	color:black;
-    text-decoration: none;
-    display: inline-block;
-	padding: 15px 0px;
-	margin: 0;
-	position: relative;
-}
-
-a:hover, a:focus, a:active {
-    color: grey;
-    transition-duration:0.4s;
-}
-
-header a:hover:after, nav a:hover:after {
-	width: 100%;
-	left: 0;
-}
 
 @media (max-width: 55em) {
 
