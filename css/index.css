@@ -78,6 +78,7 @@ a {
     text-decoration: none;
     display: inline-block;
 	padding: 15px 0px;
+	font-size:0.9em;
 }
 
 a:hover, a:focus, a:active {
@@ -239,9 +240,8 @@ body {
 
 h1{
 	font-weight:400;
-	font-size:4.2em;
+	font-size:3.2em;
 	margin-bottom:0em;
-	font-family:  'PT Sans Narrow', sans-serif;
 }
 
 h2{
