@@ -75,6 +75,10 @@
 	padding: 4em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*hand animation */
 
 .hand {

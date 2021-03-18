@@ -26,6 +26,10 @@
 	right: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* images */
 
 figcaption {
