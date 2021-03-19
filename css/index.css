@@ -182,12 +182,6 @@ header a:hover:after, nav a:hover:after {
 
 /*home page banner section */
 
-.banner-text img {
-	position: absolute;
-	margin-left: 10em;
-	margin-top: -7em;
-}
-
 .box-item-11 {
 	margin-bottom: 8em;
 	justify-content:center;
@@ -212,6 +206,25 @@ header a:hover:after, nav a:hover:after {
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:center;
+}
+
+.arrow {
+    width:2.5em;
+    text-align: center;
+}
+
+.arrow-down{
+    display:flex;
+    justify-content:center;
+    margin-top:-3.5em;
+}
+
+.arrow:hover
+{
+    -webkit-animation: swingg 2s ease;
+    animation: swingg 2s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
 
 /*home page project section */
@@ -296,6 +309,11 @@ header a:hover:after, nav a:hover:after {
 
 /*basic styles */
 
+
+html{
+    scroll-behavior: smooth;
+}
+
 p {
 	line-height: 2em;
 	margin-top: 2.5em;
@@ -328,6 +346,10 @@ h3 {
 hr{
 	width:13em;
 	border:1px solid #E3E3E3;
+}
+
+header {
+    height: 100vh;
 }
 
 footer {
