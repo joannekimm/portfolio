@@ -310,10 +310,6 @@ header a:hover:after, nav a:hover:after {
 /*basic styles */
 
 
-html{
-    scroll-behavior: smooth;
-}
-
 p {
 	line-height: 2em;
 	margin-top: 2.5em;
