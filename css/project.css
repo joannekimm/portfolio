@@ -1,4 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@keyframes swingg {
+    15% {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);
+    }
+    30% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+    50% {
+        -webkit-transform: translateY(3px);
+        transform: translateY(3px);
+    }
+    65% {
+        -webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    80% {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+.swing:hover {
+    -webkit-animation: swingg 2s ease;
+    animation: swingg 2s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
 
 .main-container{
 	display:flex;
@@ -175,7 +207,6 @@ header a:hover:after, nav a:hover:after {
     border: none;
 	transition-property: color;
 	transition-duration: 0.3s;
-	color: orange;
 }
 
 .buttonz {
