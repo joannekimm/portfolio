@@ -309,11 +309,14 @@ li {
 	margin-left:-1em;
 	line-height: 1.9em;
 	font-weight: lighter;
-	width: 40em;
 }
 
 a{
 	color:black;
+}
+
+.main-item li{
+	width: 40em;
 }
 
 .topb a {
