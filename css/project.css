@@ -306,8 +306,10 @@ p {
 
 li {
 	margin-bottom: 1.3em;
-	line-height: 1.3em;
+	margin-left:-1em;
+	line-height: 1.9em;
 	font-weight: lighter;
+	width: 40em;
 }
 
 a{
@@ -388,6 +390,7 @@ a{
     li {
     	font-size: 14px;
     	margin-left: -1em;
+    	width:100%;
     }
 
     .preview {
