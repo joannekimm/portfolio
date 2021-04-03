@@ -49,6 +49,13 @@
 	line-height:1.8em;
 }
 
+/*sections */
+
+#problem {
+	margin-top:-1em;
+	margin-bottom:5em;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -271,7 +278,6 @@ h1 {
 }
 
 h2 {
-	margin-top: 2em;
 	margin-bottom: 1em;
 	font-family: Poppins;	
 	font-weight:600;
@@ -316,6 +322,11 @@ li {
 	margin-left:-1em;
 	line-height: 1.9em;
 	font-weight: lighter;
+	font-size:0.95em;
+}
+
+section {
+	margin-bottom:9em;
 }
 
 a{
@@ -379,8 +390,13 @@ a{
     	margin-bottom:-1em;
     }
 
+    h2{
+    	font-size:1.7em;
+    }
+
     h3 {
     	margin-top:3em;
+    	font-size:1.3em;
     }
 
     img{
@@ -400,6 +416,10 @@ a{
 
     figure {
     	width:100%;
+    }
+
+    section {
+    	margin-bottom:3.5em;
     }
 
     li {
@@ -449,6 +469,10 @@ a{
 
 	.goals-item, .goals-item1 {
 		width: 100%;
+	}
+
+	.goals-item1 {
+		margin-top:-3em;
 	}
 
 	.byo {
