@@ -535,6 +535,10 @@ a{
 		display:none;
 	}
 
+	#new-website img {
+		display:none;
+	}
+
     /*about-us page */
 
     .box-item-1 {
