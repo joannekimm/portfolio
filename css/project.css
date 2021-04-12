@@ -9,11 +9,16 @@
 	padding: 4em;
 }
 
+.preview img{
+	width:100%;
+	margin-top:-3em;
+}
+
 /*logo */
 
 .JKim{
 	margin-top: -2em;
-	margin-bottom: 5em;
+	margin-left:-25em;
 }
 
 .JKim img {
@@ -168,41 +173,37 @@ header a:hover:after, nav a:hover:after {
 
 /*banner section */
 
-.banner-text{
-	margin-top: -2.5em;
-}
+	/*project description container */
 
-		/*project description container */
+	.container-1 {
+		max-width: 850px;
+		display:flex;
+		flex-wrap:wrap;
+		margin-top:2em;
+	}
 
-		.container-1 {
-			max-width: 850px;
-			display:flex;
-			flex-wrap:wrap;
-			margin-top:2em;
-		}
+	.container-1 p{
+		font-size: 0.9em;
+	}
 
-		.container-1 p{
-			font-size: 0.9em;
-		}
+	.container-1 li{
+		font-size: 0.9em;
+	}
 
-		.container-1 li{
-			font-size: 0.9em;
-		}
+	/*context section */
 
-		/*context section */
+	.box {
+		flex: 25%;
+		flex-direction:column;
+		margin-right: 4em;
+	}
 
-		.box {
-			flex: 25%;
-			flex-direction:column;
-			margin-right: 4em;
-		}
+	/*overview section */
 
-		/*overview section */
-
-		.box1 {
-			flex:40%;
-			flex-direction:column;
-		}
+	.box1 {
+		flex:40%;
+		flex-direction:column;
+	}
 
 /*button section */
 
@@ -476,6 +477,7 @@ a{
     .JKim {
     	margin-top: 0.5em;
     	margin-bottom: 0em;
+    	margin-left:0em;
     }
 
     .topb {
