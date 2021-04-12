@@ -22,7 +22,7 @@
 }
 
 .JKim img {
-	width: 4em;
+	width: 4.7em;
 }
 
 /*small containers*/
@@ -128,7 +128,7 @@ nav ul {
 nav li{
 	list-style-type: none;
 	margin: 0 1.5vw;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	font-weight: 600;
 }
 
