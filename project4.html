@@ -7,6 +7,7 @@
   <title> Project Page </title>
   <link href = "css/normalize.css" rel= "stylesheet">
   <link href = "css/project.css" rel= "stylesheet">
+  <!-- js styling file --> 
 </head>
 
 
@@ -70,8 +71,6 @@
 
  <!--Starting problem section-->
 
- <section id ="define-user">
-
       <div class = "container">
        <div class = "main-container">
         <div class = "main-item"> 
@@ -103,12 +102,12 @@
         </div> <!--Closing main-item-->
       </div> <!--Closing main-container-->
     </div> <!--Closing container-->
-  </section> <!--Closing problem section-->
 
-  <section id ="web-process">
 
     <div class = "main-container">
         <div class = "main-item"> 
+
+          <!--
 
           <h2> User persona </h2>
           <p> I created a user persona to embody the needs, wants and the frustrations based on users.</p>
@@ -116,7 +115,9 @@
           <figure>
            <img src = "img/persona.png" alt= "user persona" width = "800">
            <figcaption> Understanding the needs, wants and frustrations of users</figcaption>
-         </figure>
+         </figure> -->
+
+         <section id ="brand-identity">
           
         <h2 class ="margin-header"> Process </h2>
           <h3> Brand identity</h3>
@@ -125,52 +126,93 @@
            <div class ="moodboard">
             <div class = "moodboard-item">
 
-           <figure>
-           <img src = "img/moodboard-me.png" alt= "moodboard" width = "400">
-           <figcaption> Moodboard created by me </figcaption>
-         </figure>
-       </div> <!--Closing moodboard-item-->
+             <figure>
+             <img class="myImages" id="myImg" src = "img/moodboard-me.png" alt= "Moodboard created by me" width = "400">
+             <figcaption> Moodboard created by me </figcaption>
+           </figure>
+         </div> <!--Closing moodboard-item-->
 
-       <div class = "moodboard-item">
-         <figure>
-          <img src = "img/clare.png" alt= "moodboard" width = "400">
-           <figcaption> Moodboard inspired by Clare Huang's moodboard </figcaption>
-         </figure>
-       </div> <!--Closing moodboard-item-->
-     </div> <!--Closing moodboard-container-->
+         <div class = "moodboard-item">
+           <figure>
+            <img class="myImages" id="myImg" src = "img/clare.png" alt= "Moodboard inspired by Clare Huang's moodboard" width = "400">
+             <figcaption> Moodboard inspired by Clare Huang's moodboard </figcaption>
+           </figure>
+         </div> <!--Closing moodboard-item-->
+       </div> <!--Closing moodboard-container-->
 
          <p> My teammate Clare had a divergent moodboard with a grudgy and bold theme. My team decided to move forward with my idea and Clare's as a secondary choice with goals to incorporate the darker theme somewhere in the website. </p>
+       </section>
+
+       <section id ="pattern-library">
 
          <h3> Consolidating a pattern library</h3>
-          <p> Next, we had to prototype a style guide on Figma preliminary to individually building a final brand style guide for grainjar on HTML/CSS. To get a better sense of what style guides look like, we had to do additional research on brand style guides for websites. </p>
+          <p> Next, we prototyped a style guide on Figma preliminary to individually building a final brand style guide for grainjar on HTML/CSS. To get a better sense of what style guides look like, we had to do additional research on brand style guides for websites. </p>
 
             <figure>
-            <img src = "img/styleguides.png" alt= "style guide" width = "800">
+            <img class="myImages" id="myImg" src = "img/styleguides.png" alt= "The grainjar colour palette / interactive buttons" width = "800">
             <figcaption> The grainjar colour palette / interactive buttons</figcaption>
           </figure>
+        </section>
+
+        <section id="sitemap">
 
             <h3> Laying out all the pages </h3>
             <p> My team created a sitemap to represent the relationships between pages and establish a hierarchy to efficiently sort pages according to their function. The "shopping cart" pages are diffrentiated in color from the rest of the pages. </p>
 
             <figure>
-              <img src = "img/sitemap.png" alt= "sitemap" width = "700">
+              <img class="myImages" id="myImg" src = "img/sitemap.png" alt= "Sitemap of the grainjar website" width = "700">
                <figcaption> Sitemap of the grainjar website </figcaption>
              </figure>
+
+           </section>
+
+
+           <section id ="user-flow">
 
            <h3>Checkout user flow </h3>
            <p> After brainstorming through quick sketches on paper and establishing the sitemap for the website, we moved on to creating mid-fidelity wireframes on Figma. The most time consuming part was designing the checkout pages as they needed to be as concise as possible. We tried to envision the user flow for product checkout to ensure a seamless checkout process experience for customers.  </p>
 
            <figure>
-           <img class ="responsive" src = "img/wireframes-grainjar.png" alt= "wireframes" width = "850">
-           <figcaption> Mid-fidelity wireframes </figcaption>
-         </figure>
+            <img class="myImages" id="myImg" src = "img/wireframes-grainjar.png" alt= "Mid-fidelity wireframes" width = "800">
+            <figcaption> Mid-fidelity wireframes </figcaption>
+          </figure>
 
          <figure>
-           <img class ="responsive" src = "img/high-fidelity.png" alt= "high-fidelity" width = "850"> 
+           <img class="myImages" id="myImg" src = "img/high-fidelity.png" alt= "Final high-fidelity checkout mockup" width = "800"> 
            <figcaption> Final high-fidelity checkout mockup </figcaption>
          </figure>
-       </div>
-     </div>
+
+         <p> One of the feedbacks we got during our in-class user testing is that there's a lack of hierarchy between the right and left columns as the fraction of both sides are relatively the same. We had a section to input the discount code on every page in checkout, but decided to only have it in the payment page as users expressed it was distracting to have it on every page. We also decided to add a box around the second and reduce its sizing to distinguish the content hierarchy between the left and right column and ensure that it doesn't create any ambiguity or distractions during checkout. </p>
+
+         <div class ="moodboard">
+            <div class = "moodboard-item">
+
+              <figure>
+                <img class="myImages" id="myImg" src = "img/before-checkout.png" alt= " Checkout layout prototype" width = "400">
+                <figcaption> Checkout layout prototype 
+                </figcaption>
+              </figure>
+            </div> <!--Closing moodboard-item-->
+
+         <div class = "moodboard-item">
+          <figure>
+            <img class="myImages" id="myImg" src = "img/after-checkout.png" alt= "Final checkout layout" width = "400">
+            <figcaption> Final checkout layout
+            </figcaption>
+          </figure>
+         </div> <!--Closing moodboard-item-->
+       </div> <!--Closing moodboard-container-->
+
+     </section>
+   </div>
+ </div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
 
     <div class ="container">
      <div class = "main-container">
@@ -179,12 +221,13 @@
          <h2> Problem space </h2>
          <p> While brainstorming, we realized that if we sort according to their type and ingredients, many cereals would overlap in multiple categories, creating ambiguity.  </p>
 
-        </div> <!--Closing main-item-->
-      </div> <!--Closing main-container-->
-    </div> <!--Closing container-->
+      </div> <!--Closing main-item-->
+    </div> <!--Closing main-container-->
+  </div> <!--Closing container-->
 
      <div class = "main-container">
       <div class = "main-item">
+        <section id="solutions">
          <h3> Solutions </h3>
          <p> As a result, we took an unconventional approach with sorting cereal. We organized them by different occasions rather than based on the different types and flavours. </p>
 
@@ -197,14 +240,12 @@
         </ul> <p> </p>
 
         <figure>
-          <img src = "img/categories.png" alt= "categories" width = "900">
-          <figcaption> 4 unique categories with a set of curated cereal
-          </figcaption>
+          <img class="myImages" id="myImg" src = "img/categories.png" alt= "4 unique categories with a set of curated cereal" width = "900">
+          <figcaption> 4 unique categories with a set of curated cereal </figcaption>
         </figure> 
-
-      </div><!--CLosing main-item-->
+       </section>
+      </div><!--Closing main-item-->
     </div> <!--Closing main-container-->
-  </section><!--Closing web process section-->
 
     <!--Starting design-system section-->
 
@@ -224,63 +265,76 @@
 
       <!--Starting basic-interactive-elements section-->
 
-      <section id ="basic-interactive-elements">
 
-          <div class = "main-container">
-            <div class = "main-item">
+    <div class = "main-container">
+      <div class = "main-item">
 
-            <h2> Basic interactive elements</h2>
-            <p> Basic interactive elements such as the button styling were established in the pattern library prior to building the website and is used across the entire website to ensure consistency at all times. The button padding, sizes, margins, colours and functionalities are outlined in the pattern library.</p>
+        <section id ="basic-interactive-elements">
 
-            <h3> Call to action buttons </h3>
-            <p> Buttons are interactive elements which communicate and triger an action. On the grainjar website, there are 4 different types of buttons- primary which is used for “add to cart” buttons, secondary buttons used for “read more” buttons and disabled buttons for selecting flavours in product detail modules. </p>
+          <h2> Basic interactive elements</h2>
+          <p> Basic interactive elements such as the button styling were established in the pattern library prior to building the website and is used across the entire website to ensure consistency at all times. The button padding, sizes, margins, colours and functionalities are outlined in the pattern library.</p>
 
-            <figure>
-              <img src = "img/button3.png" alt= "Button hierarchy" width = "650"> 
-              <figcaption> Call to action button hierarchy</figcaption>
-            </figure> <p></p>
+        </section>
 
-            <h3>Anatomy</h3>
-            <p>All the default buttons used at grainjar are center-aligned. In the case that an icon is used in secondary buttons, the text is left-aligned.</p>
+        <section id ="call-to-action">
 
-            <figure>
-              <img src = "img/button.png" alt= "Button anatomy" width = "600"> 
-              <figcaption>Interactive button anatomy used at grainjar</figcaption>
-            </figure> <p></p>
+          <h3> Call to action buttons </h3>
+          <p> Buttons are interactive elements which communicate and triger an action. On the grainjar website, there are 4 different types of buttons- primary which is used for “add to cart” buttons, secondary buttons used for “read more” buttons and disabled buttons for selecting flavours in product detail modules. </p>
 
-            <h3>Button size</h3>
-            <p>There are 3 different button sizes at grainjar. The buttons used for forms are longer than the default buttons. All the buttons use padding: 8px 28px 8px 28px, a border-radius of 3px and a 0.9em font-size.</p>
+          <figure>
+            <img src = "img/button3.png" alt= "Button hierarchy" width = "650"> 
+            <figcaption> Call to action button hierarchy</figcaption>
+          </figure> <p></p>
+        </section>
 
-            <figure>
-              <img src = "img/button2.png" alt= "Button size" width = "500"> 
-              <figcaption >Button sizing </figcaption>
-            </figure>
+        <section id="anatomy">
 
-          </div><!--Closing main-item-->
-        </div><!--Closing main-container-->
-      </section> <!--Closing basic interaction elements section-->
+          <h3>Anatomy</h3>
+          <p>All the default buttons used at grainjar are center-aligned. In the case that an icon is used in secondary buttons, the text is left-aligned.</p>
 
-      <!--reflection container start-->
-      <div class = "container">
-         <div class = "main-container">
+          <figure>
+            <img src = "img/button.png" alt= "Button anatomy" width = "600"> 
+            <figcaption>Interactive button anatomy used at grainjar</figcaption>
+          </figure> <p></p>
+        </section>
+
+        <section id ="button-size">
+
+          <h3>Button size</h3>
+          <p>There are 3 different button sizes at grainjar. The buttons used for forms are longer than the default buttons. All the buttons use padding: 8px 28px 8px 28px, a border-radius of 3px and a 0.9em font-size.</p>
+
+          <figure>
+            <img src = "img/button2.png" alt= "Button size" width = "500"> 
+            <figcaption >Button sizing </figcaption>
+          </figure>
+        </section>
+
+        </div><!--Closing main-item-->
+      </div><!--Closing main-container-->
+
+    <!--reflection container start-->
+    <div class = "container">
+       <div class = "main-container">
+        <div class = "main-item">
+
+            <h2> Reflection </h2>
+            <p> Designing a brand design system was a rewarding experience which allowed me to breakdown the web into modular UI components and prioritize consistency and accessibility across our prototypes. Not to mention, having a style guide has facilitated the collaboration process between my team mates, as establishing the basic interactive elements such as primary buttons and margins from the get-go was the key to success in working as efficiently as possibly when it came down to the most time-consuming, coding component of the project. </p>
+
+            <a class = "buttons" href ="https://joannekimm.github.io/styleguide0/Basic-Styles.html" target="_blank"> View style guide here &rarr; </a> <br>
+            <a class = "buttons" href ="https://soph03.github.io/IAT-339/Grainjar-Website/Home-Page.html" target="_blank"> View grainjar website &rarr; </a> 
+            
+          </div> <!--Closing container-->
+        </div> <!--Closing main-item-->
+      </div> <!--Closing main-container-->
+
+      <!--Starting back to the top button-->
+
+        <div class = "main-container">
           <div class = "main-item">
+           <div class = "topb"><a href = '#desktop-nav'> Back to the top&#8593;</a></div>
+         </div> <!--CLosing main-item-->
+       </div> <!--CLosing main-container-->
 
-              <h2> Reflection </h2>
-              <p> Designing a brand design system was a rewarding experience which allowed me to breakdown the web into modular UI components and prioritize consistency and accessibility across our prototypes. Not to mention, having a style guide has facilitated the collaboration process between my team mates, as establishing the basic interactive elements such as primary buttons and margins from the get-go was the key to success in working as efficiently as possibly when it came down to the most time-consuming, coding component of the project. </p>
-
-              <a class = "buttons" href ="https://joannekimm.github.io/styleguide0/Basic-Styles.html" target="_blank"> View style guide here &rarr; </a> <br>
-              <a class = "buttons" href ="https://soph03.github.io/IAT-339/Grainjar-Website/Home-Page.html" target="_blank"> View grainjar website &rarr; </a> 
-              
-            </div> <!--Closing container-->
-          </div> <!--Closing main-item-->
-        </div> <!--Closing main-container-->
-
-        <!--Starting back to the top button-->
-
-          <div class = "main-container">
-            <div class = "main-item">
-             <div class = "topb"><a href = '#desktop-nav'> Back to the top&#8593;</a></div>
-           </div> <!--CLosing main-item-->
-         </div> <!--CLosing main-container-->
-       </body>
-      </html>
+         <script src="js/script.js"></script>
+     </body>
+    </html>
