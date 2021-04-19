@@ -69,7 +69,7 @@
 /*grey container box */
 
 .container {
-	background-color: #F3F3F3;
+	background-color: #F6F6F6;
 }
 
 /*sections */
@@ -396,7 +396,7 @@ a{
 }
 
 #grainjar-problem h2{
-	font-size: 2.7em;
+	font-size: 3em;
 }
 
 .high-fidelity{
@@ -618,6 +618,10 @@ a{
 
 	#grainjar-problem{
 		width: 100%;
+	}
+
+	#grainjar-problem h2{
+		font-size: 2em;
 	}
 
     /*about-us page */

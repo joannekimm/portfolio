@@ -118,7 +118,7 @@
 
       <section id ="client-goals">
 
-      <h2> Defining user & client goals</h2>
+      <h2> Defining user & company goals</h2>
 
       <p> We established some of the user goals we wanted to consider and implement when prototyping our website. </p> 
 
@@ -133,10 +133,10 @@
         </div><!--Closing grid-item-->
 
          <div class ="grid-item1">
-           <h3> Client goals </h3>
+           <h3> Company goals </h3>
            <ul>
-            <li> The client should be able to showcase their products to customers clearly and effectively </li>
-            <li> The client should be able to communicate their ethos through design </li>
+            <li> The company should be able to showcase their products to customers clearly and effectively </li>
+            <li> The company should be able to communicate their ethos through design </li>
             <li> Communicate a clear sustainable and organic image </li>
           </ul>
 
@@ -155,9 +155,8 @@
      </figure> -->
 
   <section id ="brand-identity">
-      
-    <h2 class ="margin-header"> Design process </h2>
-      <h3> Brand identity</h3>
+
+      <h2> Brand identity</h2>
        <p> My team started off our design process by each creating a unique moodboard to consolidate a theme, color palette and mood we desired to establish in the website. To reflect the sustainable and organic image of the company, I chose a neutral color palette with brown and orange accents. </p>
 
        <div class ="moodboard">
@@ -179,21 +178,78 @@
 
      <p> My teammate Clare had a divergent moodboard with a grungy and bold theme. My team decided to move forward with my idea and Clare's as a secondary choice with goals to incorporate the darker theme somewhere in the website. </p>
    </section>
+ </div>
+</div>
 
-   <section id ="pattern-library">
+  <section id ="design-system">
 
-     <h3> Consolidating a pattern library</h3>
-      <p> Next, we prototyped a style guide on Figma preliminary to individually building a final brand style guide for grainjar on HTML/CSS. To get a better sense of what style guides look like, we did additional research on brand style guides for websites. </p>
+    <div class = "container">
+     <div class = "main-container">
+      <div class = "main-item">
 
-        <figure>
+        <h2> Consolidating a design system </h2>
+        <p> Each member of the team created a brand style guide unique to the website. It was important to create a reference tool in order to maintain consistency and facilitate the collaboration process when it comes to actually building the website. I built the style guide as well as UI modules such as the main navigation bar and product detail module using HTML/CSS. I included code snippets below each section as a reference.</p>
+
+      </div> <!--Closing main-item-->
+    </div> <!--Closing main-container-->
+  </div> <!--Closing container-->
+</section> <!--CLosing design-system section-->
+
+
+<!--Starting basic-interactive-elements section-->
+
+<div class = "main-container">
+  <div class = "main-item">
+
+    <section id ="basic-interactive-elements">
+
+      <h2> Basic interactive elements</h2>
+      <p> Basic interactive elements such as the button styling were established in the pattern library prior to building the website and is used across the entire website to ensure consistency and scalability at all times. The button padding, sizes, margins, colours and functionalities are outlined in the pattern library.</p>
+
+      <figure>
         <img class="myImages" src = "img/styleguides.png" alt= "The grainjar colour palette / interactive buttons" width = "800">
         <figcaption> The grainjar colour palette / interactive buttons</figcaption>
       </figure>
+
+    </section>
+
+    <section id ="call-to-action">
+
+      <h3> Call to action buttons </h3>
+      <p> Buttons are interactive elements which communicate and trigger an action. On the grainjar website, there are 4 different types of buttons- primary which is used for “add to cart” buttons, secondary buttons used for “read more” buttons and disabled buttons for selecting flavours in product detail modules. </p>
+
+      <figure>
+        <img src = "img/button3.png" alt= "Button hierarchy" width = "650"> 
+        <figcaption> Call to action button hierarchy</figcaption>
+      </figure> <p></p>
+    </section>
+
+    <section id="anatomy">
+
+      <h3>Anatomy</h3>
+      <p>All the default buttons used at grainjar are center-aligned. In the case that an icon is used in secondary buttons, the text is left-aligned.</p>
+
+      <figure>
+        <img src = "img/button.png" alt= "Button anatomy" width = "600"> 
+        <figcaption>Interactive button anatomy used at grainjar</figcaption>
+      </figure> <p></p>
+    </section>
+
+    <section id ="button-size">
+
+      <h3>Button size</h3>
+      <p>There are 3 different button sizes at grainjar. The buttons used for forms are longer than the default buttons. All the buttons use padding: 8px 28px 8px 28px, a border-radius of 3px and a 0.9em font-size.</p>
+
+      <figure>
+        <img src = "img/button2.png" alt= "Button size" width = "500"> 
+        <figcaption >Button sizing </figcaption>
+      </figure>
+
     </section>
 
     <section id="sitemap">
 
-        <h3> Laying out all the pages </h3>
+        <h2> Sitemapping </h2>
         <p> My team created a sitemap to represent the relationships between pages and establish a hierarchy to efficiently sort pages according to their functionality. The "shopping cart" pages are differentiated in color from the rest of the pages. </p>
 
         <figure>
@@ -206,7 +262,7 @@
 
        <section id ="user-flow">
 
-       <h3>Checkout user flow </h3>
+       <h2>Checkout user flow </h2>
        <p> After brainstorming through quick sketches on paper and establishing the sitemap for the website, we moved on to creating mid-fidelity wireframes on Figma. As an e-commerce website, the most time-consuming part was designing the checkout pages as they needed to be as concise as possible. We tried to envision the user flow early in the prototyping phase to ensure a seamless checkout experience for customers.  </p>
 
        <figure>
@@ -218,8 +274,13 @@
        <img class="myImages" src = "img/high-fidelity.png" alt= "Final high-fidelity checkout mockup" width = "800"> 
        <figcaption> Final high-fidelity checkout mockup </figcaption>
      </figure>
+   </section>
 
-     <p> One of the feedbacks we got during our in-class user testing is that there's a lack of hierarchy between the right and left columns as the fraction of both sides are relatively the same. We had a section to input the discount code on every page in checkout, but decided to only have it in the payment page as users expressed it was distracting to have it on every page. We also decided to add a box around the second and reduce its sizing to distinguish the content hierarchy between the left and right columns and ensure that it doesn't create any ambiguity or distractions in the checkout process. </p>
+   <section id ="feedback">
+
+     <h3> Implementing user feedback</h3>
+
+     <p> One of the feedbacks we got during our in-class user testing is that there's a lack of hierarchy between the right and left columns as the size of the two columns is relatively the same. We had a section to input the discount code on every page in checkout, but decided to only have it in the payment page as users expressed it was distracting to have it on every page. We also decided to add a box around the second and reduce its sizing to distinguish the content hierarchy between the left and right columns and ensure that it doesn't create any ambiguity or distractions in the checkout process. </p>
 
      <div class ="moodboard">
         <div class = "moodboard-item">
@@ -257,7 +318,7 @@
   <div class = "main-item">
 
      <h2> Problem space </h2>
-     <p> While brainstorming, we realized that if we sort according to their type and ingredients, many cereals would overlap in multiple categories, creating ambiguity.  </p>
+     <p> While brainstorming, we came to the realization that if we sort according to their type and ingredients, many cereals would end up overlapping in multiple categories, creating ambiguity and a search catastrophe. We brainstormed ways to efficiently organize cereal in ways that wouldn't overlap.</p>
 
   </div> <!--Closing main-item-->
 </div> <!--Closing main-container-->
@@ -288,70 +349,6 @@
   </div><!--Closing main-item-->
 </div> <!--Closing main-container-->
 
-<!--Starting design-system section-->
-
-  <section id ="design-system">
-
-    <div class = "container">
-     <div class = "main-container">
-      <div class = "main-item">
-
-        <h2> Designing a design system </h2>
-        <p> Each member of the team created a brand style guide unique to the website. It was important to create a reference tool in order to maintain consistency and facilitate the collaboration process when it comes to actually building the website. I built the style guide as well as UI modules such as the main navigation bar and product detail module using HTML/CSS. I included code snippets below each section as a reference.</p>
-
-      </div> <!--Closing main-item-->
-    </div> <!--Closing main-container-->
-  </div> <!--Closing container-->
-</section> <!--CLosing design-system section-->
-
-  <!--Starting basic-interactive-elements section-->
-
-
-<div class = "main-container">
-  <div class = "main-item">
-
-    <section id ="basic-interactive-elements">
-
-      <h2> Basic interactive elements</h2>
-      <p> Basic interactive elements such as the button styling were established in the pattern library prior to building the website and is used across the entire website to ensure consistency at all times. The button padding, sizes, margins, colours and functionalities are outlined in the pattern library.</p>
-
-    </section>
-
-    <section id ="call-to-action">
-
-      <h3> Call to action buttons </h3>
-      <p> Buttons are interactive elements which communicate and trigger an action. On the grainjar website, there are 4 different types of buttons- primary which is used for “add to cart” buttons, secondary buttons used for “read more” buttons and disabled buttons for selecting flavours in product detail modules. </p>
-
-      <figure>
-        <img src = "img/button3.png" alt= "Button hierarchy" width = "650"> 
-        <figcaption> Call to action button hierarchy</figcaption>
-      </figure> <p></p>
-    </section>
-
-    <section id="anatomy">
-
-      <h3>Anatomy</h3>
-      <p>All the default buttons used at grainjar are center-aligned. In the case that an icon is used in secondary buttons, the text is left-aligned.</p>
-
-      <figure>
-        <img src = "img/button.png" alt= "Button anatomy" width = "600"> 
-        <figcaption>Interactive button anatomy used at grainjar</figcaption>
-      </figure> <p></p>
-    </section>
-
-    <section id ="button-size">
-
-      <h3>Button size</h3>
-      <p>There are 3 different button sizes at grainjar. The buttons used for forms are longer than the default buttons. All the buttons use padding: 8px 28px 8px 28px, a border-radius of 3px and a 0.9em font-size.</p>
-
-      <figure>
-        <img src = "img/button2.png" alt= "Button size" width = "500"> 
-        <figcaption >Button sizing </figcaption>
-      </figure>
-
-    </section>
-  </div><!--Closing main-item-->
-</div><!--Closing main-container-->
 
 <!--reflection container start-->
 <div class = "container">
