@@ -318,7 +318,7 @@ h2{
 }
 
 h3 {
-	font-size: 23px;
+	font-size: 25px;
 	font-weight:600;
 }
 
@@ -341,22 +341,35 @@ footer {
 
 /*mobile vers */
 
+@media(max-width: 45em) {
+
+  .home-page-banner p{
+    font-size:0.8em;
+  }
+
+  .home-page-banner {
+    margin-top: 7em;
+  }
+
+  h1{
+    font-size:2.55em;
+  }
+}
+
 @media (max-width: 55em) {
 
 	.main-item{
-	    flex-basis: 100%;
-	    padding: 2em;
-    }
+	  flex-basis: 100%;
+	  padding: 2em;
+  }
 
 	.home-page-banner {
 		flex-basis: 100%;
-		margin-top: 2em;
-		margin-bottom: 4em;
+		margin-bottom: 5em;
 	}
 
 	.home-page-banner p{
 		width:100%;
-    font-size:0.8em;
 	}
 
 	.box-item-1 {
@@ -366,10 +379,6 @@ footer {
 	.box {
 		flex-basis:100%;
 		margin-bottom: 2em;
-	}
-
-	h1{
-		font-size:2.55em;
 	}
 
 	h2{

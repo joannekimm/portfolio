@@ -217,7 +217,7 @@ header a:hover:after, nav a:hover:after {
 	}
 
 	#overview .line-space {
-		line-height:2.1em;
+		line-height:2em;
 	}
 
 /*button section */
@@ -311,7 +311,7 @@ header a:hover:after, nav a:hover:after {
 /*basic styles section */
 
 h1 {
-	font-size: 28px;
+	font-size: 34px;
 	font-family: Poppins;	
 }
 
