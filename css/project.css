@@ -66,6 +66,10 @@
 	margin-top:2.8em;
 }
 
+.small {
+	width: 20em;
+}
+
 /*grey container box */
 
 .container {
@@ -80,11 +84,15 @@
 
 #problem {
 	margin-bottom:12em;
-	margin-top:16em;
 }
 
 #competitive-analysis img{
 	margin-top:3em;
+}
+
+#sus {
+	margin-top:18em;
+	margin-bottom:16em;
 }
 
 /* images */
@@ -93,7 +101,7 @@ figcaption {
 	font-size: 0.8em;
 	font-style:italic;
 	font-family: poppins;
-	margin-top: 0.5em;
+	margin-top: 1em;
 	margin-bottom: 2em;
 	margin-left: -2.5em;
 }
@@ -165,16 +173,25 @@ header a:hover:after, nav a:hover:after {
 
 .about-item-1 {
 	width: 30em;
-	margin-right: 4em;
+	margin-right: 6em;
+	margin-left:6em;
 }
 
 .about-item-2 {
-	margin-top:2em;
+	margin-top:8em;
 }
 
 .about-container li{
 	list-style-type:none;
 	margin-left:-2.5em;
+}
+
+#info-card {
+	margin-left:6em;
+}
+
+#analysis ul {
+	max-width: 40em;
 }
 
 /*banner section */
@@ -347,9 +364,16 @@ h5 {
 	margin-bottom: 3.5em;
 }
 
+h6 {
+	font-family: Poppins;
+	font-size:1.1em;
+	font-weight: 300;
+	margin-bottom:-1.3em;
+}
+
 p {
 	max-width: 800px;
-	line-height: 1.9em;
+	line-height: 2em;
 	margin-bottom: 3em;
 	font-weight: lighter;
 	font-size:0.95em;
@@ -368,7 +392,7 @@ li {
 }
 
 section {
-	margin-bottom:10em;
+	margin-bottom:13em;
 }
 
 html {
@@ -413,6 +437,37 @@ a{
 	margin-right: auto;
 }
 
+.short-para {
+	width: 50em;
+}
+
+.short-para h2{
+	line-height:1.8em;
+	font-size:2.5em;
+}
+
+.grid3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.grid-itemz {
+	width: 27em;
+}
+
+.grid-item5 {
+	margin-top:7em;
+	margin-left:3em;
+}
+
+.final {
+	margin-top:-20em;
+	margin-bottom:-9em;
+}
+
+.final2 {
+	margin-top:-20em;
+}
 /*code by https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img */
 
 .modal {
@@ -474,6 +529,18 @@ a{
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media (max-width: 72em) {
+	.about-item-1 {
+		width: 100%;
+		margin-right:0;
+		margin-left:0;
+	}
+
+	#info-card {
+		margin-left:0;
+	}
 }
 
 @media (max-width: 57em) {
@@ -608,6 +675,11 @@ a{
 		margin-top:6em;
 	}
 
+	#sus {
+		margin-top:0;
+		margin-bottom:0;
+	}
+
 	#problem img {
 		display:none;
 	}
@@ -624,12 +696,21 @@ a{
 		font-size: 2em;
 	}
 
-    /*about-us page */
-
-    .about-item-1 {
-		width: 100%;
-		margin-right:0;
+	.short-para {
+		width:100%;
 	}
+
+	.grid3 {
+		grid-template-columns: 1fr;
+	}
+
+	.grid-item5 {
+		margin-top:0;
+		margin-left:0;
+	}
+
+
+    /*about-us page */
 
     nav li {
 		flex-basis: 100%;
