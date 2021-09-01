@@ -117,7 +117,7 @@
 
   <section id ="research">
 
-      <h3> Convenience Culture </h3>
+      <h2> Convenience Culture </h2>
       <p> Under our current capitalist system, convenience culture has been normalized in the food and beverage industry and exacerbated by the contemporary hustle attitude. From mobile ordering to delivery apps to takeout, our modern-day society prioritizes speed under a false narrative that everything needs to operate at its maximum efficiency even if it comes at the expense of human and environmental health. Hence, tackling the single-use waste problem would require us to rethink our systems of convenience and understand the underlying drivers of convenience. Ultimately, there is no way for us to achieve a circular economy while maintaining this status quo</p>
 
       <h3> Stakeholder Analysis</h3>
@@ -133,8 +133,10 @@
         <li> trading off waste for time </li>
         <li>out of sight, out of mind attitude</li>
       </ul>
+      <p></p>
 
-      <h3> What's the goal of BYO?</h3>
+      <h2> What's the goal of BYO?</h2>
+      <p></p>
       <div class="grid-container">
       <div class ="grid-item">
 
@@ -182,7 +184,7 @@
 
       <div class ="grid-item">
 
-       <h3> Key takeaways 📌</h3>
+       <h3> Key takeaways</h3>
         <ul>
           <li> Efforts have been implemented to reduce disposable cups but none have leveraged bring-your-own-cup collectively </li>
           <li> Current reward apps that exist in the restaurant industry are mostly based on the traditional premise of transactional loyalty.</li>
@@ -199,24 +201,9 @@
      </div> <!--Closing grid-container-->
      <p></p>
 
-     <div class ="grid-container">
-
-      <div class ="grid-item">
-
         <h3> Amplifying user impact</h3>
 
          <p> For BYO, instead of using solely rewards to incentivize consumers, our tree planting aspect seeks to connect consumers to a broader global impact and shape a community. Because there is no app on the market that recognizes this, we want to create one that leverages these grassroots connections to drive change.</p>
-       </div>
-
-        <div class ="grid-item">
-
-          <figure>
-           <img class src = "img/tree.png" alt= "tree planting" width = "350">
-           <figcaption> Track and amplify their collective environmental action </figcaption>
-          </figure>
-
-       </div> <!--Closing grid-item1-->
-     </div> <!--Closing grid-container-->
 
      <img class src = "img/leader.png" alt= "sustainability leader" width = "850">
    </section>
@@ -258,11 +245,34 @@
          <img src = "img/3tier.png" alt= "3 tier system" width = "800">
          <figcaption> 3 tier system </figcaption>
         </figure>
+      </section>
+
+
+    <section id = "usertesting">
+    <h2> User Testing </h2>
+      <p> Early in the design phase, my team ran a usability testing session with 5 Beta Test Users to test out different prototypes of the rewards library and impact dashboard. The purpose of this session was to test out the new reward program. Despite the fact that we had a considerably small sample size of users due to the fact that specifically recruited beta test users, the majority of the users said that they wanted to see the progress bar on the home page so they can keep track of how many cups they need to save until the next reward.</p>
+
+       <figure>
+         <img src = "img/test1.png" alt= "usability test" width = "800">
+         <figcaption> Prototype 1 - Impact-based progress bar </figcaption>
+      </figure>
+
+      <p> My team presented 2 different mockups of our home screen UI and the reward program to users. The first prototype focuses more on the user impact as users can directly see how many cups they need to save to plant the next tree in the progress bar. In terms of the rewards library, depending on which tier the user is in, the applicable rewards are active and the non-applicable rewards are greyed out. However, users noted that the reward program was unintuitive and most of them didn't realize that it was based on a 3 tier system.</p>
+
+      <figure>
+         <img src = "img/test2.png" alt= "usability test" width = "800">
+         <figcaption> Prototype 2 - Tier-based progress bar </figcaption>
+      </figure>
+
+      <p>The second prototype emphasizes the tier system more as the progress bar indicates how many cups the user needs to save to reach the next tier. Although users can easily identify which tier they belong in and how the system works, users can't see how many cups they need to save to plant the next tree unless they tap on the "your impact card". Overall, users were in favour of the first prototype more and my team agreed that it aligned with our core values best.</p>
+    </section>
+
+    <section id ="after">
 
 
     <h3> Distinguishing between tiers </h3>
 
-    <p> How might we establish a visual contrast between tiers 1,2 and 3 without taking away from our efforts to leverage community and positivity? While it was important for users to get a sense of exclusivity, it wasn't our goal to turn this app into a tier-driven initiative. We wanted to ensure that it was intuitive enough for users to know which tier they are in while still focusing on tracking their environmental impact in our dashboard.</p>
+    <p> How might we establish a visual contrast between tiers 1,2 and 3 without taking away from our efforts to leverage community and positivity? After the user testing sessions, my team braindstormed ways to find the middle ground between the 1st and 2nd prototype as well as coming up with visual cues which allows users to easily identify which tier they are in. While it was important for users to get a sense of exclusivity, it wasn't our goal to turn this app into a tier-driven initiative. We wanted to ensure that it was intuitive enough for users to know which tier they are in while still focusing on tracking their environmental impact in our dashboard.</p>
 
      <figure>
          <img src = "img/tier.png" alt= "3 tier system" width = "800">
@@ -271,36 +281,30 @@
 
     <h3> How might we amplify user impact? </h3>
 
-     <p> Instead of having a progress bar which shows how many cups they need to save in order to plant the next tree, we decided to change it into a tier progress bar. In contrast, we decided to make the "your impact" cards interactive so that users can learn more about the impact they are making through a little pop up card. </p>
+     <p> While we decided to keep the progress bar which shows how many more cups need to be saved to plant the next tree, we thought it was a good idea to keep the "your impact cards" interactive so that users (especially first-time users) can learn more about the impact they are making through a little pop up card. </p>
 
       <figure>
          <img src = "img/dash.png" alt= "amplifying user impact" width = "800">
          <figcaption> Interactive cards to amplify user impact </figcaption>
       </figure>
+    </section>
 
-    <h3> Wireframing the interaction </h3>
 
-    <p> I created interactive wireframes to contextualize the new designs and understand how the tier system will be integrated into the dashboard and the reward library.</p>
+    <h2> Final iteration </h2>
+
+    <p> It was really important for us to ensure that the tier system was very intuitive in the rewards library so we added an interactive status card at the very top as well as greying out the rewards that are non-applicable to the users' current tier status. Furthermore, in the final iteration, my team focused on making components within the app more interactive. When users tap on the first card, it indicates the different tier systems used at BYO. We decided on more approachable languaging - "Sprout", "Sapling" and "Tree" to replace the "tier" terminology.</p>
 
     <figure>
          <img src = "img/sap.png" alt= "reward library" width = "800">
          <figcaption> 3 Tier system in the rewards library </figcaption>
       </figure>
 
-    <h2> Friends impact feature </h2>
+    <h3> Friends impact feature </h3>
 
-    <p> Including a friends feature was a popular request from our beta testers. As our app strives to incentivize community impact, we wanted to implement a feature where users can track their friends' progress. This not only helps users keep each other accountable in an approachable way, but also helps to spread the word by inviting new users to use the app and join the BYO movement.  </p>
+    <p> Including a friends feature was a popular request from our beta testers. As our app strives to incentivize community impact, we wanted to implement a feature where users can track their friends' progress. This not only helps users keep each other accountable in an approachable way, but also helps to spread the word by inviting new users to use the app and join the BYO movement.</p>
     <figure>
          <img src = "img/friendz.png" alt= "3 tier system" width = "800">
          <figcaption> 3 tier system </figcaption>
-      </figure>
-
-      <h2> Usability Testing </h2>
-      <p> My team ran a usability testing session with 5 Beta Test Users to test out different prototypes of the rewards library and impact dashboard. Despite the fact that we had a considerably small sample size of user testers due to the fact that specifically recruited beta test users, the majority of the users said that they wanted to see the progress bar on the home page so they can keep track of how many cups they need to save until the next reward.</p>
-
-       <figure>
-         <img src = "img/usabilityt.png" alt= "usability test" width = "800">
-         <figcaption> 2 diverging prototypes </figcaption>
       </figure>
   </section>
 
@@ -320,9 +324,11 @@
         <div class = "main-container">
           <div class = "main-item">
 
-           <h2> Final thoughts </h2>
+           <h2> Reflection </h2>
 
-             <p>Working in a cross-functional team allowed me to gain more insight about important elements of implementation which translates differently from initial design iterations in some instances. At times, I had to advocate my design decisions to people from different areas of expertise with minimal user experience design and that helped me reflect on the design choices I make more critically.</p>
+             <p> I was only a first year student with very limited design experience when I started this project and I could've never imagined leading the design team and collaborating with developers to actually ship the BYO app on the app store/ google play one day. My team had to go through so many design iterations to ensure that it reflected our stakeholders' visions as well as users' and although leveraging between the two was hard at times, this was honestly one of the most rewarding experiences to date. Throughout this journey, I had to advocate my design decisions to people from different areas of expertise with minimal user experience design and that helped me reflect on the design choices I make more critically and practice verbally communicating my design decisions.</p>
+
+             <p> One thing I would do differently next time is to interview a bigger sample of users so that I can actually do an A/B test of the two different prototypes I made of the home screen UI and reward library. Generally, as more users start to use our app in real life settings, I would love to interview users to see whether our app was successful in leveraging community rather than incentivizing solely with our rewards system. If unsuccessful, I would love to gather feedback and brainstorm ways to optimize the user experience in a way that reflects our core values.</p>
 
             </div> <!--Closing container-->
           </div> <!--Closing main-item-->
